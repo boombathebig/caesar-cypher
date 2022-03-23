@@ -4,7 +4,7 @@ def caesarCipher(string, shifter)
     arry.each do |number|
 
         if shifter > 26
-            p "too big of a shift, you cock sucker... Error. "
+            p "too big of a shift, Error. "
             return 
         end
         if (number >= 65  && number <= 90 ) 
@@ -32,5 +32,5 @@ def caesarCipher(string, shifter)
     p convertedArry.join("");
      
 end
-caesarCipher("wangz are fun[",5)
+caesarCipher("this is a test",5)
 
